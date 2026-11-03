@@ -15,3 +15,18 @@ kwIDAQAB
 2026-11-03 19:14:34,660 - core.cache - INFO - cache.py:281 - 缓存系统已关闭
 2026-11-03 19:14:34,660 - core.database - INFO - database.py:120 - 异步数据库连接池已关闭
 2026-11-03 19:14:34,660 - app.factory - INFO - factory.py:43 - 应用已安全关闭
+2026-11-03 19:17:47,315 - aiomysql - DEBUG - connection.py:951 - caching sha2: succeeded by fast path.
+2026-11-03 19:17:47,319 - sqlalchemy.engine.Engine - INFO - base.py:1837 - SELECT DATABASE()
+2026-11-03 19:17:47,319 - sqlalchemy.engine.Engine - INFO - base.py:1837 - [raw sql] ()
+2026-11-03 19:17:47,320 - sqlalchemy.engine.Engine - INFO - base.py:1837 - SELECT @@sql_mode
+2026-11-03 19:17:47,320 - sqlalchemy.engine.Engine - INFO - base.py:1837 - [raw sql] ()
+2026-11-03 19:17:47,320 - sqlalchemy.engine.Engine - INFO - base.py:1837 - SELECT @@lower_case_table_names
+2026-11-03 19:17:47,320 - sqlalchemy.engine.Engine - INFO - base.py:1837 - [raw sql] ()
+2026-11-03 19:17:47,321 - sqlalchemy.engine.Engine - INFO - base.py:2694 - BEGIN (implicit)
+2026-11-03 19:17:47,321 - sqlalchemy.engine.Engine - INFO - base.py:1837 - SELECT 1
+2026-11-03 19:17:47,321 - sqlalchemy.engine.Engine - INFO - base.py:1837 - [generated in 0.00018s] ()
+2026-11-03 19:17:47,322 - sqlalchemy.engine.Engine - INFO - base.py:2697 - ROLLBACK
+2026-11-03 19:17:47,322 - core.database - INFO - database.py:111 - 异步数据库连接池创建成功: localhost:3306/campus_flash?charset=utf8mb4
+2026-11-03 19:17:47,322 - core.cache - INFO - cache.py:271 - 内存缓存已就绪 (max_size=10000)
+2026-11-03 19:17:47,323 - core.queue - INFO - queue.py:49 - 内存队列已启动 (handlers=[])
+2026-11-03 19:17:47,323 - app.factory - INFO - factory.py:32 - 应用启动成功 - 环境: Environment.DEVELOPMENT
