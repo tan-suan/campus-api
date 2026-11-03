@@ -1,0 +1,17 @@
+2026-11-03 19:14:34,630 - aiomysql - DEBUG - connection.py:960 - caching sha2: Trying full auth...
+2026-11-03 19:14:34,631 - aiomysql - DEBUG - connection.py:982 - -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnuZLPqA3GfmY9fAJp4pm
+FXlrIkLdFR+EMks5QX4WJT8sfsW/k+AVtm5lQr14bFDJd1kMQR/XlQiCVUiJy21B
+hdwLfPeBbbCg+TIhhZlK1Mu2QVT3QS28ly+viB+S+3Y1WuxUfovRHr3YOwLRoTDT
+7TUCfeDhy/wkJxbeBACGham9fAf7Cw8Ii2nLlRgWcoZAujoJmhbLLgtR1KJs3ah0
+qmsnPPQ+OdTjiaQNL9xgXHbt5SIy/sRmQmPJpy5x3RS8su1STcNvlp0USn9drhC5
+HBAXdYu5FTDmrkOIzhH4ZMxbS+/2n4tO6l+4CbG3005hKpcTht9guFMy5DNNh4f5
+kwIDAQAB
+-----END PUBLIC KEY-----
+
+2026-11-03 19:14:34,659 - app.factory - ERROR - factory.py:35 - 应用启动失败: (pymysql.err.OperationalError) (1045, "Access denied for user 'dev_user'@'localhost' (using password: YES)")
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-11-03 19:14:34,659 - app.factory - INFO - factory.py:38 - 正在关闭应用资源...
+2026-11-03 19:14:34,660 - core.cache - INFO - cache.py:281 - 缓存系统已关闭
+2026-11-03 19:14:34,660 - core.database - INFO - database.py:120 - 异步数据库连接池已关闭
+2026-11-03 19:14:34,660 - app.factory - INFO - factory.py:43 - 应用已安全关闭

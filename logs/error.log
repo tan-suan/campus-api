@@ -1,0 +1,2 @@
+2026-11-03 19:14:34,659 - app.factory - ERROR - factory.py:35 - 应用启动失败: (pymysql.err.OperationalError) (1045, "Access denied for user 'dev_user'@'localhost' (using password: YES)")
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
